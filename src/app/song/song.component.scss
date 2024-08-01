@@ -1,0 +1,56 @@
+
+.song {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px; 
+  margin: 10px auto; 
+}
+
+.song h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.song p {
+  margin: 5px 0;
+  color: #777;
+}
+
+.song button {
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block; 
+  margin-top: 10px; 
+}
+
+.btnVote {
+ background-color: #0059c5;
+}
+
+.btnDel {
+  background-color: #c10000; 
+}
+
+.btnMod{
+  background-color: #ff8800;
+}
+
+.btnVote:hover {
+  background-color: #004395;
+}
+
+.btnDel:hover {
+  background-color: #950000;
+}
+
+.btnMod:hover {
+  background-color: #d37100;
+}

@@ -1,0 +1,16 @@
+<div class="song-list">
+  <app-add-song-form
+    [songToEdit]="songToEdit"
+    (songAdded)="onSongAdded($event)"
+    (songUpdated)="onSongUpdated($event)"
+  >
+  </app-add-song-form>
+  <app-song
+    *ngFor="let song of songs"
+    [song]="song"
+    (deleteSongEvent)="onDeleteSong($event)"
+    (voteChanged)="onVote()"
+    (modifySong)="onModifySong($event)"
+  >
+  </app-song>
+</div>

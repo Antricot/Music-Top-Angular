@@ -1,0 +1,10 @@
+<div class="song">
+  <h3>{{ song.name }}</h3>
+  <p>Artist:{{ song.artist }}</p>
+  <p>Album:{{ song.album }}</p>
+  <p>Date:{{ song.date }}</p>
+  <p>Votes: {{ song.votes }}</p>
+  <button class="btnVote" (click)="vote()">Upvote</button>
+  <button class="btnDel" (click)="deleteSong()">Delete</button>
+  <button class="btnMod" (click)="modify()">Modify</button>
+</div>

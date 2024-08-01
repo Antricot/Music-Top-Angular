@@ -1,0 +1,23 @@
+<div class="add-song-form">
+  <h2>{{ songToEdit ? "Edit Song" : "Add New Song" }}</h2>
+  <form (ngSubmit)="addOrUpdateSong()">
+    <div class="form-group">
+      <label for="artist">Artist</label>
+      <input
+        type="text"
+        id="artist"
+        name="artist"
+        [(ngModel)]="newSong.artist"
+      />
+    </div>
+    <div class="form-group">
+      <label for="name">Song Name</label>
+      <input type="text" id="name" name="name" [(ngModel)]="newSong.name" />
+    </div>
+    <div class="form-group">
+      <label for="album">Album</label>
+      <input type="text" id="album" name="album" [(ngModel)]="newSong.album" />
+    </div>
+    <button type="submit">{{ songToEdit ? "Save" : "Add Song" }}</button>
+  </form>
+</div>

@@ -1,0 +1,20 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "artist": "asdas",
+      "name": "dasd",
+      "album": "asdasd",
+      "date": "2024-06-13T11:30:05.263Z",
+      "votes": 0
+    },
+    {
+      "id": 2,
+      "artist": "adfaddf",
+      "name": "asd",
+      "album": "asda",
+      "date": "2024-06-13T11:34:15.907Z",
+      "votes": 0
+    }
+  ]
+}
